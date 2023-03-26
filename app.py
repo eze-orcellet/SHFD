@@ -4,7 +4,6 @@ import pickle
 
 import numpy as np
 import pandas as pd
-import seaborn as sns
 from sklearn.pipeline import Pipeline
 from sklearn.pipeline import make_pipeline
 
