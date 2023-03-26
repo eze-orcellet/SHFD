@@ -1,18 +1,7 @@
 import streamlit as st
 import pandas as pd
 import pickle
-
 import numpy as np
-import pandas as pd
-
-from fs import FeatureSelection
-
-
-from sklearn import set_config
-set_config(display="diagram")
-
-
-    
 
 with open('mejor_modelo_tp4.pkl', 'rb') as f:
     modelo = pickle.load(f)
