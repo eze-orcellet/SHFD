@@ -95,6 +95,8 @@ def app():
     if st.button('Pasos del modelo:'):
                
         st.write(modelo.named_steps)
+        
+    st.markdown("[Link al dataset original](https://www.kaggle.com/datasets/saadmansakib/smartphone-human-fall-dataset)")
 
 # Ejecuta la aplicación Streamlit
 if __name__ == '__main__':
