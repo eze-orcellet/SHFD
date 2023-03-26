@@ -5,4 +5,7 @@ xgboost==1.4.0
 scikit-learn
 seaborn
 matplotlib.pyplot
-sklearn
+sklearn.model_selection
+sklearn.metrics
+sklearn.preprocessing
+sklearn.pipeline
