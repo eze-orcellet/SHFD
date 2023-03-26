@@ -3,3 +3,5 @@ pandas
 numpy
 xgboost==1.4.0
 scikit-learn
+seaborn
+matplotlib.pyplot
