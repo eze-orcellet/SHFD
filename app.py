@@ -4,31 +4,10 @@ import pickle
 
 import numpy as np
 import pandas as pd
-from sklearn.pipeline import Pipeline
-from sklearn.pipeline import make_pipeline
-
-from sklearn.model_selection import GridSearchCV
-from sklearn.model_selection import train_test_split
-from sklearn.model_selection import GridSearchCV
-from sklearn.model_selection import StratifiedKFold
-from sklearn.model_selection import cross_val_score
-from sklearn.metrics import classification_report
-from sklearn.metrics import accuracy_score
-from sklearn.base import BaseEstimator, TransformerMixin
-from sklearn.preprocessing import StandardScaler
-from sklearn.preprocessing import MinMaxScaler
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.linear_model import LogisticRegression
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.ensemble import IsolationForest
-from sklearn.tree import DecisionTreeClassifier
 
 from fs import FeatureSelection
 
-from xgboost import XGBClassifier
 
-import warnings
-warnings.filterwarnings('ignore')
 from sklearn import set_config
 set_config(display="diagram")
 
